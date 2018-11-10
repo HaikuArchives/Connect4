@@ -1,23 +1,24 @@
 # Connect-4 v1.0
 
+### by Leo Chan, (c)1997
+
 ![screenshot](screenshot.png)
 
-## by Leo Chan, (c)1997
-
 ### Source information
-File: Connect4.zip
+* File: Connect4.zip
 
-Author: Leo Chan
+* Author: Leo Chan
 
-Release: 1.0 (December 14, 1997)
+* Release: 1.0 (December 14, 1997)
 
-Compatibility: PR 2
+* Compatibility: PR 2
 
-Location: contrib/games
+* Location: contrib/games
 
-Description: A simple game of Connect 4
+* Description: A simple game of Connect 4
 
-Notes: The project for this game is in the Project directory.
+* Notes: The project for this game is in the Project directory.
+
 
 
 Please mail any comments to leochan@gpu.srv.ualberta.ca
