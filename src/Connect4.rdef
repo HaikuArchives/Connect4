@@ -55,7 +55,7 @@ resource mini_icon array {
 	$"03030303030303030303030303030303"
 };
 
-resource app_signature "application/x-vnd-Connect-4";
+resource app_signature "application/x-vnd.Connect-4";
 
 resource app_version {
 	major  = 1,
