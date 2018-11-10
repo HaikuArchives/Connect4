@@ -1,4 +1,20 @@
 
+resource app_signature "application/x-vnd.Connect-4";
+
+resource app_version {
+	major  = 1,
+	middle = 0,
+	minor  = 0,
+
+	variety = B_APPV_FINAL,
+	internal = 0,
+
+	short_info = "Connect 4",
+	long_info = "Connect 4 Game\nLeo Chan\nDecember 1997"
+};
+
+resource app_flags B_SINGLE_LAUNCH;
+
 resource file_types message;
 
 resource large_icon array {
@@ -54,19 +70,3 @@ resource mini_icon array {
 	$"1020101010201010102A101010201003"
 	$"03030303030303030303030303030303"
 };
-
-resource app_signature "application/x-vnd.Connect-4";
-
-resource app_version {
-	major  = 1,
-	middle = 0,
-	minor  = 0,
-
-	variety = B_APPV_FINAL,
-	internal = 0,
-
-	short_info = "Connect 4",
-	long_info = "Connect 4 Game\nLeo Chan\nDecember 1997"
-};
-
-resource app_flags B_SINGLE_LAUNCH;
