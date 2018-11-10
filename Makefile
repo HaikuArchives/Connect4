@@ -28,12 +28,13 @@ APP_MIME_SIG =
 #	means this Makefile will not work correctly if two source files with the
 #	same name (source.c or source.cpp) are included from different directories.
 #	Also note that spaces in folder names do not work well with this Makefile.
-SRCS =  src/CWindow.cpp \
-		src/CView.cpp \
-		src/CSearch.cpp \
-		src/CMain.cpp \
-		src/CBoard.cpp \
-		src/CApp.cpp
+SRCS = \
+	src/CWindow.cpp \
+	src/CView.cpp \
+	src/CSearch.cpp \
+	src/CMain.cpp \
+	src/CBoard.cpp \
+	src/CApp.cpp
 
 #	Specify the resource definition files to use. Full or relative paths can be
 #	used.
@@ -59,7 +60,7 @@ RSRCS =
 #	- 	if your library does not follow the standard library naming scheme,
 #		you need to specify the path to the library and it's name.
 #		(e.g. for mylib.a, specify "mylib.a" or "path/mylib.a")
-LIBS =  $(STDCPPLIBS) be media tracker game
+LIBS =  $(STDCPPLIBS) be
 
 #	Specify additional paths to directories following the standard libXXX.so
 #	or libXXX.a naming scheme. You can specify full paths or paths relative
@@ -71,18 +72,16 @@ LIBPATHS =
 #	Additional paths to look for system headers. These use the form
 #	"#include <header>". Directories that contain the files in SRCS are
 #	NOT auto-included here.
-SYSTEM_INCLUDE_PATHS =  /boot/system/develop/headers/be \
-						/boot/system/develop/headers/cpp \
-						/boot/system/develop/headers/posix
+SYSTEM_INCLUDE_PATHS =
 
 #	Additional paths paths to look for local headers. These use the form
 #	#include "header". Directories that contain the files in SRCS are
 #	automatically included.
-LOCAL_INCLUDE_PATHS =  . src
+LOCAL_INCLUDE_PATHS = 
 
 #	Specify the level of optimization that you want. Specify either NONE (O0),
 #	SOME (O1), FULL (O2), or leave blank (for the default optimization level).
-OPTIMIZE := NONE
+OPTIMIZE :=
 
 # 	Specify the codes for languages you are going to support in this
 # 	application. The default "en" one must be provided too. "make catkeys"
