@@ -2,15 +2,21 @@
 
 ![screenshot](screenshot.png)
 
-## Leo Chan, 1997
+## by Leo Chan, (c)1997
 
 ### Source information
 File: Connect4.zip
+
 Author: Leo Chan
+
 Release: 1.0 (December 14, 1997)
+
 Compatibility: PR 2
+
 Location: contrib/games
+
 Description: A simple game of Connect 4
+
 Notes: The project for this game is in the Project directory.
 
 
