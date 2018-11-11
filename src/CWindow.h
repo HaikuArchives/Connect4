@@ -8,6 +8,8 @@
 
 #ifndef CWINDOW_H
 #define CWINDOW_H
+#include <Application.h>
+#include <InterfaceKit.h>
 
 #include <Window.h>
 #include <View.h>
@@ -27,6 +29,8 @@
 
 #define CCEL_WIDTH	45
 #define CCEL_HEIGHT	45
+
+class BMenuItem;
 
 class CWindow : public BWindow
 {

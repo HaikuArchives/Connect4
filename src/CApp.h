@@ -15,7 +15,7 @@
 #include "CBoard.h"
 #include "CSearch.h"
 
-#define CAPP_SIG	"application/x-vnd-Connect-4"
+#define CAPP_SIG	"application/x-vnd.Connect-4"
 
 class CApp : public BApplication
 {

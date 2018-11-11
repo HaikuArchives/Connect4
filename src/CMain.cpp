@@ -8,11 +8,12 @@
 
 #include "CApp.h"
 
-void main()
+int main()
 {
 	CApp *pApp;
 	
 	pApp = new CApp();
 	pApp->Run();
 	delete pApp;
+	return 0;
 }

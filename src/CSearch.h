@@ -10,7 +10,8 @@
 #define CSEARCH_H
 
 #include <Looper.h>
-
+#include <Application.h>
+#include <stdio.h>
 #include "CDefs.h"
 #include "CMessages.h"
 
