@@ -4,6 +4,7 @@
 
 ![game in real life](irl.jpg)
 *This is what Connect 4 looks like in real life. Photo credit: https://www.flickr.com/photos/unloveable/2396019222*
+
 ![screenshot](screenshot.png)
 *This is what the game looks like in software.*
 
